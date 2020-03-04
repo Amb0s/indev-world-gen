@@ -2,18 +2,18 @@ package ambos.indevworldgen.util.noise;
 
 import java.util.Random;
 
-public class Infdev0415NoiseSampler {
+public class InfdevNoiseSampler {
     private int permutations[];
     private double xCoord;
     private double yCoord;
     private double zCoord;
 
-    public Infdev0415NoiseSampler()
+    public InfdevNoiseSampler()
     {
         this(new Random());
     }
 
-    public Infdev0415NoiseSampler(Random random)
+    public InfdevNoiseSampler(Random random)
     {
         permutations = new int[512];
         xCoord = random.nextDouble() * 256D;
